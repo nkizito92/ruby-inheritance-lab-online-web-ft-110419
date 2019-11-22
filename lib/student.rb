@@ -4,4 +4,8 @@ class Student < User
     def initialize
       @@knowledge << self 
     end 
+    
+    def self.all 
+      @@knowledge
+    end 
 end
