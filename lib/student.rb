@@ -1,6 +1,7 @@
 class Student < User
   @@knowledge = []
   
-    def initialize 
+    def initialize
+      @@knowledge << self 
     end 
 end
