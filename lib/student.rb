@@ -5,5 +5,5 @@ class Student < User
       @knowledge  = []
     end 
     
-    d
+    
 end
